@@ -7,9 +7,17 @@ $calculator-max-height: 700px;
 #calculator {
   max-width: $calculator-max-width;
   max-height: $calculator-max-height;
-  color: red;
+  width: 100%;
+  height: 100%;
+  background-color: black;
 }
 
 //class selectors
 
 //element selectors
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}

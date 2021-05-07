@@ -1,7 +1,6 @@
-body {
-  background-color: green;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+#calculator {
+  max-width: 500px;
+  max-height: 700px;
+  color: red;
 }
 /*# sourceMappingURL=styles.css.map */

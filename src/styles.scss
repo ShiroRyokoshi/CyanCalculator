@@ -1,4 +1,15 @@
-body {
-  background-color: green;
-  justify-content: center;
+//variables
+$calculator-max-width: 500px;
+$calculator-max-height: 700px;
+
+//id selectors
+
+#calculator {
+  max-width: $calculator-max-width;
+  max-height: $calculator-max-height;
+  color: red;
 }
+
+//class selectors
+
+//element selectors

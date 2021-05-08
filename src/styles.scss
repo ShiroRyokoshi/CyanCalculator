@@ -1,15 +1,27 @@
 //variables
 $calculator-max-width: 500px;
-$calculator-max-height: 700px;
+$calculator-max-height: 650px;
 
 //id selectors
 
 #calculator {
   max-width: $calculator-max-width;
   max-height: $calculator-max-height;
-  width: 100%;
+  position: relative;
   height: 100%;
   background-color: black;
+  padding: 20px 20px 0px 20px;
+}
+
+#result {
+  height: 15%;
+  margin-bottom: 15%;
+  background-color: green;
+}
+
+#buttons {
+  height: 70%;
+  background-color: blue;
 }
 
 //class selectors

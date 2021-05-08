@@ -1,9 +1,21 @@
 #calculator {
   max-width: 500px;
-  max-height: 700px;
-  width: 100%;
+  max-height: 650px;
+  position: relative;
   height: 100%;
   background-color: black;
+  padding: 20px 20px 0px 20px;
+}
+
+#result {
+  height: 15%;
+  margin-bottom: 15%;
+  background-color: green;
+}
+
+#buttons {
+  height: 70%;
+  background-color: blue;
 }
 
 html,
